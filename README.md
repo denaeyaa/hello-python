@@ -45,7 +45,7 @@ Ada beberapa nilai yang baklal dianggap <i>false</i> sebagai berikut:
   ```bash
   multi_line = """ Halo!
   Ayo kita lakukan yang terbaik,
-  Sampai jumpa
+  Sampai jumpa """
   ```
 
   Tetapi kita tidak bisa mengubah substring yang ada. Karena string dalam Python bersifat `immutable`
