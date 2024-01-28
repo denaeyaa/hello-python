@@ -1,0 +1,16 @@
+class NumberSystemConversions:
+    def binary_to_decimal(self, binary):
+        try:
+            decimal = int(binary, 2)
+            return decimal
+        except ValueError:
+            print("Invalid binary input.")
+            return None
+
+    def decimal_to_binary(self, decimal):
+        try:
+            binary = bin(decimal)[2:]
+            return binary
+        except ValueError:
+            print("Invalid decimal input.")
+            return None
