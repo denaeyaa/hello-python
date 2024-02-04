@@ -71,3 +71,5 @@ Ada beberapa nilai yang baklal dianggap <i>false</i> sebagai berikut:
   ```bash
   name = "denay"
   print("namaku {}".format(name))
+
+4. 
